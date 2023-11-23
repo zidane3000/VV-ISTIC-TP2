@@ -1,5 +1,11 @@
 # Use PMD designer
 
+## Download JavaFX 
+If JavaFX is not installed you can download it [here](https://gluonhq.com/products/javafx/).
+Check the current version of your JDK by running ```java --version``` and download the corresponding version ("Minimum JDK" column).
+* Java 17 => JavaFX 21
+* Java 11 => JavaDX 17
+
 ## Set up JavaFX
 Before using `designer` you need to specify JavaFX path.
 
@@ -13,7 +19,7 @@ $ export JAVAFX_HOME=path/to/javafx-sdk-{version}
 $ set JAVAFX_HOME=path\to\javafx-sdk-{version}
 ```
 
-If JavaFX is not installed you can download it [here](https://gluonhq.com/products/javafx/).
+
 
 ## Run designer
 
@@ -24,5 +30,5 @@ $ run.sh designer
 
 #### Windows
 ```shell
-$ designer.bat
+$ pmd.bat designer
 ```
