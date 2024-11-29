@@ -76,12 +76,11 @@ class Exemple2 {
 Non, **LCC ne peut jamais être inférieur à TCC**, car **LCC inclut toutes les connexions** (directes et indirectes), alors que **TCC ne considère que les connexions directes**.
 
 #### Justification : 
-Le cours précise que :
+D'aprés le cours :
 \(
-TCC \leq LCC
+TCC =< LCC
 \)
 
-Cela signifie que :
 - Si des connexions indirectes existent, **LCC > TCC**.
 - Si aucune connexion indirecte n'existe, **LCC = TCC**.
 
