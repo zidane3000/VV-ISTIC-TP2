@@ -6,17 +6,15 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
-# TCC et LCC : Quand ces métriques produisent-elles la même valeur pour une classe Java ?
+### Les différentes circonstances où TCC et LCC produisent la même valeur pour une classe Java :
 
-## Les différentes circonstances où TCC et LCC produisent la même valeur pour une classe Java :
-
-### Cas 1 : Toutes les connexions entre méthodes sont directes
+#### Cas 1 : Toutes les connexions entre méthodes sont directes
 
 Si toutes les méthodes partagent des attributs communs et qu'il n'existe aucune connexion indirecte, alors :
 - **TCC = LCC**, car toutes les paires de méthodes sont directement connectées.
 - Le graphe de cohésion est **complet** (chaque méthode est directement liée aux autres).
 
-#### Exemple inspiré du graphe dans le cours (*Figure8*) :
+##### Exemple inspiré du graphe dans le cours (*Figure8*) :
 ```java
 class Figure8 {
     int x, y;
@@ -45,13 +43,13 @@ class Figure8 {
 
 ---
 
-### Cas 2 : Aucune connexion entre méthodes
+#### Cas 2 : Aucune connexion entre méthodes
 
 Si aucune méthode ne partage d'attribut avec une autre méthode, alors :
 - Il n'existe aucune connexion (ni directe, ni indirecte).
 - **TCC = LCC = 0**.
 
-#### Exemple :
+##### Exemple :
 ```java
 class Exemple2 {
     int x, y;
@@ -73,11 +71,11 @@ class Exemple2 {
 
 ---
 
-## LCC peut-il être inférieur à TCC ?
+### LCC peut-il être inférieur à TCC ?
 
 Non, **LCC ne peut jamais être inférieur à TCC**, car **LCC inclut toutes les connexions** (directes et indirectes), alors que **TCC ne considère que les connexions directes**.
 
-### Justification : 
+#### Justification : 
 Le cours précise que :
 \(
 TCC \leq LCC
