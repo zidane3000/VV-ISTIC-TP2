@@ -37,6 +37,7 @@ Cette règle XPath est utilisée pour détecter un code complexe avec trop d'ins
     </rule>
 
 </ruleset>
+```
 
  Cette règle signale toute occurrence de trois instructions `if` imbriquées ou plus dans le code source.
 
