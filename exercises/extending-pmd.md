@@ -23,3 +23,5 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+[Click here to view the answer](code/Exercise3/README.md)
+
