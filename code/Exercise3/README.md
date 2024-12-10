@@ -39,7 +39,8 @@ Cette règle XPath est utilisée pour détecter un code complexe avec trop d'ins
 </ruleset>
 ```
 
- Cette règle signale toute occurrence de trois instructions `if` imbriquées ou plus dans le code source.
+Cette règle signale toute occurrence de trois instructions if imbriquées ou plus dans le code source.
+L'expression XPath utilisée est ```xml//IfStatement[count(.//IfStatement) >= 3]```. Elle permet de rechercher des éléments IfStatement contenant au moins trois instructions if imbriquées à différents niveaux.
 
 ## Exécution de la règle XPath pour détecter les instructions `if` imbriquées sur differents projet 
 
@@ -48,13 +49,15 @@ Pour exécuter la règle XPath et détecter les instructions `if` imbriquées, v
 ```bash
 pmd check -d src/main/java -R rule_nested_if.xml -f text -r ../pmd_report_nested_if_statement.txt
 ```
-## Explication de la commande
 
 - **pmd check** : Cette commande exécute l'analyse PMD sur le code source.
 - **-d src/main/java** : Spécifie le répertoire contenant les fichiers Java à analyser.
 - **-R rule_nested_if.xml** : Indique le fichier XML contenant la règle personnalisée définissant la détection des instructions `if` imbriquées.
 - **-f text** : Spécifie que le format de sortie sera en texte simple.
 - **-r ../pmd_report_nested_if_statement.txt** : Définit le chemin où le rapport des résultats sera enregistré.
+
+
+## Exemples Ecexution sur diffrenets projet
 
 ### Apache Commons Collections
 Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet1.txt).
