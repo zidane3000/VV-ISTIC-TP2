@@ -4,3 +4,4 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
+[Click here to view the answer](code/Exercise3/README.md)
