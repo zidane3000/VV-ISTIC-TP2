@@ -48,21 +48,22 @@ Pour exécuter la règle XPath et détecter les instructions `if` imbriquées, v
 ```bash
 pmd check -d src/main/java -R rule_nested_if.xml -f text -r ../pmd_report_nested_if_statement.txt
 ```
-Explication de la commande
-pmd check : Cette commande exécute l'analyse PMD sur le code source.
--d src/main/java : Spécifie le répertoire contenant les fichiers Java à analyser.
--R rule_nested_if.xml : Indique le fichier XML contenant la règle personnalisée définissant la détection des instructions if imbriquées.
--f text : Spécifie que le format de sortie sera en texte simple.
--r ../pmd_report_nested_if_statement.txt : Définit le chemin où le rapport des résultats sera enregistré.
+## Explication de la commande
 
-###Apache Commons Collections
+- **pmd check** : Cette commande exécute l'analyse PMD sur le code source.
+- **-d src/main/java** : Spécifie le répertoire contenant les fichiers Java à analyser.
+- **-R rule_nested_if.xml** : Indique le fichier XML contenant la règle personnalisée définissant la détection des instructions `if` imbriquées.
+- **-f text** : Spécifie que le format de sortie sera en texte simple.
+- **-r ../pmd_report_nested_if_statement.txt** : Définit le chemin où le rapport des résultats sera enregistré.
+
+### Apache Commons Collections
 Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet1.txt).
 
-###Apache Commons CLI
+### Apache Commons CLI
 Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet1.txt).
 
-###Apache Commons Math
+### Apache Commons Math
 Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet3.txt)
 
-###Apache Commons Lang
+### Apache Commons Lang
 Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet4.txt)
