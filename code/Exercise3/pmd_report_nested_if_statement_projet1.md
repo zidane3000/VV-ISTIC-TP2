@@ -1,4 +1,5 @@
-src\main\java\org\apache\commons\collections4\CollectionUtils.java:1858:	TooManyNestedIfs:	found three or more nested if statements !
+### Résultat PMD Apache Commons Collections
+```bash src\main\java\org\apache\commons\collections4\CollectionUtils.java:1858:	TooManyNestedIfs:	found three or more nested if statements !
 src\main\java\org\apache\commons\collections4\CollectionUtils.java:1860:	TooManyNestedIfs:	found three or more nested if statements !
 src\main\java\org\apache\commons\collections4\CollectionUtils.java:1862:	TooManyNestedIfs:	found three or more nested if statements !
 src\main\java\org\apache\commons\collections4\MapUtils.java:227:	TooManyNestedIfs:	found three or more nested if statements !
@@ -33,3 +34,4 @@ src\main\java\org\apache\commons\collections4\set\CompositeSet.java:193:	TooMany
 src\main\java\org\apache\commons\collections4\trie\AbstractPatriciaTrie.java:608:	TooManyNestedIfs:	found three or more nested if statements !
 src\main\java\org\apache\commons\collections4\trie\AbstractPatriciaTrie.java:1284:	TooManyNestedIfs:	found three or more nested if statements !
 src\main\java\org\apache\commons\collections4\trie\AbstractPatriciaTrie.java:2041:	TooManyNestedIfs:	found three or more nested if statements !
+```
