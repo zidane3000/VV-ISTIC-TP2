@@ -60,13 +60,13 @@ pmd check -d src/main/java -R rule_nested_if.xml -f text -r ../pmd_report_nested
 ## Exemples Ecexution sur diffrenets projet
 
 ### Apache Commons Collections
-Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet1.txt).
+Résultats dans le fichier [PMD report](pmd_report_nested_if_statement_projet1.md).
 
 ### Apache Commons CLI
-Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet1.txt).
+Résultats dans le fichier [PMD report](pmd_report_nested_if_statement_projet1.md).
 
 ### Apache Commons Math
-Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet3.txt)
+Résultats dans le fichier [PMD report](pmd_report_nested_if_statement_projet3.md)
 
 ### Apache Commons Lang
-Résultats dans le fichier [PMD report](code/Exercice3/pmd_report_nested_if_statement_projet4.txt)
+Résultats dans le fichier [PMD report](pmd_report_nested_if_statement_projet4.md)
