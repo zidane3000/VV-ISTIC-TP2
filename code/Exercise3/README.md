@@ -40,7 +40,7 @@ Cette règle XPath est utilisée pour détecter un code complexe avec trop d'ins
 ```
 
 Cette règle signale toute occurrence de trois instructions if imbriquées ou plus dans le code source.
-L'expression XPath utilisée est ```xml//IfStatement[count(.//IfStatement) >= 3]```. Elle permet de rechercher des éléments IfStatement contenant au moins trois instructions if imbriquées à différents niveaux.
+L'expression XPath utilisée est ```//IfStatement[count(.//IfStatement) >= 3]```. Elle permet de rechercher des éléments IfStatement contenant au moins trois instructions if imbriquées à différents niveaux.
 
 ## Exécution de la règle XPath pour détecter les instructions `if` imbriquées sur differents projet 
 
