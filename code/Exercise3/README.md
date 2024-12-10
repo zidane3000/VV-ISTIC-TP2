@@ -47,7 +47,7 @@ Pour exécuter la règle XPath et détecter les instructions `if` imbriquées, v
 
 ```bash
 pmd check -d src/main/java -R rule_nested_if.xml -f text -r ../pmd_report_nested_if_statement.txt
-
+```
 Explication de la commande
 pmd check : Cette commande exécute l'analyse PMD sur le code source.
 -d src/main/java : Spécifie le répertoire contenant les fichiers Java à analyser.
