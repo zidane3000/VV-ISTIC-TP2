@@ -1,10 +1,10 @@
 # Exercie 3
 
-## XPath Rule to Detect Nested If Statements
+## Règle XPath pour détecter les instructions `if` imbriquées
 
-This XPath rule is used to detect complex code with too many nested `if` statements. The rule triggers a warning when there are three or more nested `if` statements within a block of code.
+Cette règle XPath est utilisée pour détecter un code complexe avec trop d'instructions `if` imbriquées. La règle déclenche un avertissement lorsqu'il y a trois instructions `if` imbriquées ou plus dans un bloc de code.
 
-### Rule Definition
+### Définition de la règle
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
