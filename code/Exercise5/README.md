@@ -1,4 +1,4 @@
-# Projet Cyclomatic Complexity Calculator
+# Cyclomatic Complexity with JavaParser
 
 Ce projet calcule la complexité cyclomatique des méthodes dans un projet Java en utilisant la bibliothèque JavaParser pour analyser le code source. Il génère un rapport au format CSV (et/ou Mackdom) et un histogramme représentant la distribution des valeurs de la complexité cyclomatique (CC).
 
