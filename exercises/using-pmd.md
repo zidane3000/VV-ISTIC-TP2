@@ -9,7 +9,7 @@ Nous avons exécuter l'analyse PMD sur le projet [Apache Commons Collections](ht
 ```bash
 pmd.bat check -d commons-collections\src\main\java -f text -R rulesets/java/quickstart.xml -r results_pmd_commons-collections.txt
 ```
-Le fichier de résultats [results_pmd_commons-collections.txt](../code/exercise2/results_pmd_commons-collections.md) contient une série d'avertissements identifiés par PMD pendant l'analyse du code source. 
+Le fichier de résultats [results_pmd_commons-collections.txt](../code/Exercise2/results_pmd_commons-collections.md) contient une série d'avertissements identifiés par PMD pendant l'analyse du code source. 
 
 ### Exemple 1 : Faux Positif
 Avertissement : CompareObjectsWithEquals
