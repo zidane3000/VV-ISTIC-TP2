@@ -29,21 +29,21 @@ Les histogrammes ci-dessous représentent la distribution des valeurs de complex
 ### Histogrammes
 
 #### 1. Apache Commons Collections
-![Histogramme Apache Commons Collections](code/Exercise5/results/projet1/histogram_Apache Commons Collections.png)
+![Histogramme Apache Commons Collections](code/Exercise5/results/projet1/histogram_Apache_Commons_Collections.png)
 
 **Analyse :**
 - La majorité des méthodes ont une complexité cyclomatique de 1, ce qui indique un code simple et linéaire pour la plupart des cas.
 - Quelques méthodes ont des complexités légèrement plus élevées, nécessitant potentiellement une refactorisation pour améliorer leur maintenabilité.
 
 #### 2. Apache Commons CLI
-![Histogramme Apache Commons CLI](code/Exercise5/results/projet2/histogram_Apache Commons CLI.png)
+![Histogramme Apache Commons CLI](code/Exercise5/results/projet2/histogram_Apache_Commons_CLI.png)
 
 **Analyse :**
 - Comme pour Apache Commons Collections, une grande partie des méthodes ont une complexité cyclomatique de 1.
 - Le pic est légèrement moins élevé, ce qui pourrait indiquer une répartition des responsabilités un peu différente dans ce projet.
 
 #### 3. Apache Commons Lang
-![Histogramme Apache Commons Lang](code/Exercise5/results/projet3/histogram_Apache Commons Lang.png)
+![Histogramme Apache Commons Lang](code/Exercise5/results/projet3/histogram_Apache_Commons_Lang.png)
 
 **Analyse :**
 - Ce projet présente une distribution similaire, avec un nombre élevé de méthodes ayant une complexité cyclomatique faible.
