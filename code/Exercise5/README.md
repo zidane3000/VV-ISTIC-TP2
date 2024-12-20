@@ -36,7 +36,7 @@ Les histogrammes ci-dessous représentent la distribution des valeurs de complex
 - Quelques méthodes ont des complexités légèrement plus élevées, nécessitant potentiellement une refactorisation pour améliorer leur maintenabilité.
 
 #### 2. Apache Commons CLI
-![Histogramme Apache Commons CLI](code/Exercise5/results/projet2/histogram_Apache_Commons_CLI.png)
+![Histogramme Apache Commons CLI](code/Exercise5/results/projet1/histogram_Apache_Commons_Collections.png)
 
 **Analyse :**
 - Comme pour Apache Commons Collections, une grande partie des méthodes ont une complexité cyclomatique de 1.
