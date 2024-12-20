@@ -12,9 +12,9 @@ pmd.bat check -d commons-collections\src\main\java -f text -R rulesets/java/quic
 Le fichier de résultats [results_pmd_commons-collections.txt](../code/Exercise2/results_pmd_commons-collections.md) contient une série d'avertissements identifiés par PMD pendant l'analyse du code source. 
 
 ### Exemple 1 : Faux Positif
-Avertissement : CompareObjectsWithEquals
-Fichier : commons-collections\src\main\java\org\apache\commons\collections4\ListUtils.java:322
-Message : Use equals() to compare object references.
+- Avertissement : CompareObjectsWithEquals
+- Fichier : commons-collections\src\main\java\org\apache\commons\collections4\ListUtils.java:322
+- Message : Use equals() to compare object references.
 
 ***Code d'origine :***
 
@@ -47,9 +47,9 @@ Le message d'avertissement suggère d'utiliser `equals()` au lieu de `==` pour c
 
 ### Exemple 2 : Vrai Positif
 
-Avertissement : UnnecessaryFullyQualifiedName
-Fichier : commons-collections\src\main\java\org\apache\commons\collections4\IterableUtils.java:627
-Message : Unnecessary qualifier 'IterableUtils': 'isEmpty' is already in scope
+- Avertissement : UnnecessaryFullyQualifiedName
+- Fichier : commons-collections\src\main\java\org\apache\commons\collections4\IterableUtils.java:627
+- Message : Unnecessary qualifier 'IterableUtils': 'isEmpty' is already in scope
 
 ***Code d'origine :***
 
